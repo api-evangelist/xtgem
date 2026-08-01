@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of xtgem.com
+note: >-
+  Probed the standard /.well-known/ discovery surface on xtgem.com. None returned
+  200; recorded here as honest negative results. No WellKnown or SecurityTxt
+  pointer is emitted because nothing was found. Note that *.xtgem.com is a
+  wildcard serving user-built mobile sites (api./developer./trust. subdomains
+  return user content, not provider surfaces).
+hosts:
+- host: https://xtgem.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /llms.txt, status: 404}

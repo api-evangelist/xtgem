@@ -1,0 +1,27 @@
+# XtGem
+
+> XtGem is a visual mobile website builder operated by UAB XtGem of Vilnius,
+> Lithuania. It lets anyone build and host mobile sites on *.xtgem.com
+> subdomains (10M+ sites hosted) using a drag-and-drop builder and the XtScript
+> templating language. XtGem publishes no public developer API, webhooks, or
+> SDKs; its only first-party open-source project is the XtFramework PHP
+> framework on GitHub.
+
+## Site
+
+- [XtGem](https://xtgem.com): Visual mobile site building tool and hosting
+- [Knowledge base](http://syntax.xtgem.com/manual/xtgem): Builder manual and XtScript template syntax reference
+- [Community forum](http://forum.xtgem.com/): User discussions and support
+- [About](https://xtgem.com/about): Company information (UAB XtGem, Vilnius, Lithuania)
+- [Terms of Service](https://xtgem.com/tos)
+- [Privacy Policy](https://xtgem.com/privacy)
+
+## Code
+
+- [GitHub organization](https://github.com/XtGem): UAB XtGem
+- [XtFramework](https://github.com/XtGem/XtFramework): High scalability, low overhead PHP framework (open source)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/xtgem/refs/heads/main/apis.yml): APIs.json profile for XtGem
+- Note: no public API surface was found as of 2026-07-21 (no REST API, no OpenAPI, no /.well-known/ documents, no llms.txt published by the provider).

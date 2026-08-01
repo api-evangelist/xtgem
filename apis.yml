@@ -1,19 +1,41 @@
 aid: xtgem
 name: XtGem
-description: XtGem is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: XtGem is a visual mobile website builder operated by UAB XtGem of Vilnius,
+  Lithuania, letting anyone build and host mobile sites on *.xtgem.com subdomains
+  (10 million+ sites hosted) with a drag-and-drop builder, file hosting, community
+  blocks (forums, blogs, guestbooks), and the XtScript templating language. XtGem
+  publishes no public developer API, webhooks, or SDKs; its GitHub organization
+  ships the open-source XtFramework PHP framework.
 url: https://raw.githubusercontent.com/api-evangelist/xtgem/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/827126?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Website Builder
+- Mobile
+- Hosting
+- Templates
+- No-Code
+- Lithuania
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,24 @@ maintainers:
 common:
 - type: Website
   url: https://xtgem.com
+- type: Documentation
+  url: http://syntax.xtgem.com/manual/xtgem
+- type: Support
+  url: http://forum.xtgem.com/
+- type: Login
+  url: https://xtgem.com/login
+- type: TermsOfService
+  url: https://xtgem.com/tos
+- type: PrivacyPolicy
+  url: https://xtgem.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/XtGem
+- type: LLMsTxt
+  url: llms/xtgem-llms.txt
+- type: DomainSecurity
+  url: security/xtgem-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
